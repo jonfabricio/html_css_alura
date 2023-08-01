@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <main>
-        <h1>Primeiro sitezinho <strong> com um Front-end de qualidade! </strong> <span> CHAMA</span></h1>
-        <p>Esse aqui é o pai aprendendo <strong> HTML e CSS </strong> com a alura da massa, vem com a gente.</p> 
-        <a href="https://www.youtube.com/shorts/VmfJI8EEASw">Chama</a>
-         <a href="https://www.youtube.com/watch?v=dgn0egjhDJs">Só os de vdd</a>
+    <header class="cabecalho"> 
+        <nav class="cabecalho__menu"> 
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Primeiro sitezinho <strong class="destaque_titulo"> com um Front-end de qualidade! </strong> <span> ALA Ó</span></h1>
+            <p class="apresentacao__conteudo__texto">Esse aqui é o pai aprendendo HTML e CSS com a alura da massa, vem com a gente.</p> 
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Aqui oh:</h2>
+                <a class="apresentacao__links__link" href="https://www.youtube.com/shorts/VmfJI8EEASw">Chama</a>
+                <a class="apresentacao__links__link" href="https://www.youtube.com/watch?v=dgn0egjhDJs">Coração partido</a>
+            </div>
+        </section>
          <img src="tomi.jpg" alt="tomitomi">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por filmaEuAlek</p>
+    </footer>
 </body>
 </html>
 
